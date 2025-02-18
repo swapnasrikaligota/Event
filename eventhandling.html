@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <p>-> create a HTML elements and add events to them</p>
+        <p>-> Using Dom change the content and styling of the elements</p>
+        <p>-> Take a image and create 10 buttons and change the opacity of the image from 0 to 10 using these buttons</p>
+    </div>
+    <button class="imgs" onclick="showOpacity()">CLICK ME TO ADJUST</button>
+    <button class="imgs" onmouseout="showOpacity1()">CLICK TO ADJUST</button>
+    <button class="imgs" onmousemove="showOpacity2()">CLICK  TO ADJUST</button>
+    <button class="imgs" ondblclick="showOpacity3()">CLICK  TO ADJUST</button>
+    <button class="imgs" onclick="showOpacity4()">CLICK  TO ADJUST</button>
+    <button class="imgs" onclick="showOpacity5()">CLICK  TO ADJUST</button>
+    <button class="imgs" onclick="showOpacity6()">CLICK  TO ADJUST</button>
+    <button class="imgs" onmouseout="showOpacity7()">CLICK  TO ADJUST</button>
+    <button class="imgs" onclick="showOpacity8()">CLICK  TO ADJUST</button>
+    <div id="Opacity" style="text-align:center;"><img src="pic.jpeg" alt="" height="400px" width="300px"></div>
+    <script>
+
+
+        function showOpacity() {
+            let newfunction = document.getElementById("Opacity")
+            newfunction.innerHTML = "<img src='pic.jpeg'style='Opacity:0.1' height='600px' width='400px'></img>"
+        }
+        function showOpacity1() {
+            let newfunction = document.getElementById("Opacity")
+            newfunction.innerHTML = "<img src='pic.jpeg'style='Opacity:0.2' height='600px' width='400px'></img>"
+        } function showOpacity2() {
+            let newfunction = document.getElementById("Opacity")
+            newfunction.innerHTML = "<img src='pic.jpeg'style='Opacaity:0.3' height='600px' width='400px'></img>"
+        } function showOpacity3() {
+            let newfunction = document.getElementById("Opacity")
+            newfunction.innerHTML = "<img src='pic.jpeg'style='Opacity:0.4' height='600px' width='400px'></img>"
+        }
+        function showOpacity4() {
+            let newfunction = document.getElementById("Opacity")
+            newfunction.innerHTML = "<img src='pic.jpeg'style='Opacaity:0.5' height='600px' width='400px'></img>"
+        }
+        function showOpacity5() {
+            let newfunction = document.getElementById("Opacity")
+            newfunction.innerHTML = "<img src='pic.jpeg'style='Opacity:0.6' height='600px' width='400px'></img>"
+        }
+        function showOpacity6() {
+            let newfunction = document.getElementById("Opacity")
+            newfunction.innerHTML = "<img src='pic.jpeg'style='Opacity:0.7' height='600px' width='400px'></img>"
+        }
+        function showOpacity7() {
+            let newfunction = document.getElementById("Opacity")
+            newfunction.innerHTML = "<img src='pic.jpeg'style='Opacity:0.8' height='600px' width='400px'></img>"
+        }
+        function showOpacity8() {
+            let newfunction = document.getElementById("Opacity")
+            newfunction.innerHTML = "<img src='pic.jpeg'style='Opacity:1' height='600px' width='400px'></img>"
+        }
+    </script>
+</body>
+
+</html>
